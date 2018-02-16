@@ -147,3 +147,6 @@ Intermediate/*
 # Cache files for the editor to use
 
 DerivedDataCache/*
+
+# Also excluding Starter Content
+BuildingEscape/Content/StarterContent
