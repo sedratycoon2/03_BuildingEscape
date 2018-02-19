@@ -1,4 +1,4 @@
-﻿Log file open, 02/16/18 17:49:53
+﻿Log file open, 02/18/18 20:30:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BuildingEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2117674207) SRandInit(2117674207).
+LogInit: Display: RandInit(-34429883) SRandInit(-34429883).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.234613
+LogStats: Stats thread started at 0.221330
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -197,565 +197,544 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.16-21.49.55:565][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.16-21.49.55:565][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.16-21.49.55:605][  0]LogInit: Computer: LAPTOP-OFUD9S0R
-[2018.02.16-21.49.55:605][  0]LogInit: User: Ghost
-[2018.02.16-21.49.55:605][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.16-21.49.55:605][  0]LogInit: High frequency timer resolution =2.742189 MHz
-[2018.02.16-21.49.55:605][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.02.16-21.49.55:605][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.16-21.49.55:605][  0]LogMemory: Process Physical Memory: 274.07 MB used, 274.07 MB peak
-[2018.02.16-21.49.55:605][  0]LogMemory: Process Virtual Memory: 269.79 MB used, 269.79 MB peak
-[2018.02.16-21.49.55:605][  0]LogMemory: Physical Memory: 5860.38 MB used,  10398.79 MB free, 16259.16 MB total
-[2018.02.16-21.49.55:606][  0]LogMemory: Virtual Memory: 677.92 MB used,  10398.79 MB free, 134217728.00 MB total
-[2018.02.16-21.49.55:838][  0]LogInit: Using OS detected language (en-US).
-[2018.02.16-21.49.55:838][  0]LogInit: Using OS detected locale (en-CA).
-[2018.02.16-21.49.55:841][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.16-21.49.56:272][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.16-21.49.56:566][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.16-21.49.56:622][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2018.02.16-21.49.56:622][  0]LogD3D11RHI:       4031/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.16-21.49.56:637][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.02.16-21.49.56:638][  0]LogD3D11RHI:       128/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.02.16-21.49.56:640][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.16-21.49.56:640][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.16-21.49.56:640][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.16-21.49.56:646][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.16-21.49.56:646][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2018.02.16-21.49.56:647][  0]LogWindows: EnumDisplayDevices:
-[2018.02.16-21.49.56:647][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.02.16-21.49.56:647][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.02.16-21.49.56:647][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.02.16-21.49.56:647][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.16-21.49.56:647][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2018.02.16-21.49.56:647][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.16-21.49.56:647][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.16-21.49.56:647][  0]LogRHI: Texture pool is 2821 MB (70% of 4031 MB)
-[2018.02.16-21.49.56:673][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.16-21.49.56:747][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.16-21.49.56:748][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/10172/).
-[2018.02.16-21.49.56:748][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gahlo/AppData/Local/Temp/UnrealShaderWorkingDir/25B231E048FD789C5F14C9949CCA90CC/'.
-[2018.02.16-21.49.56:748][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.16-21.49.57:903][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.16-21.49.57:972][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.16-21.49.58:041][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.16-21.49.58:125][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.16-21.49.58:199][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.16-21.49.58:488][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.16-21.49.58:562][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.16-21.49.58:641][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.16-21.49.58:716][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.16-21.49.58:791][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.16-21.49.58:880][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.16-21.49.58:957][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.16-21.49.59:029][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.16-21.49.59:100][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.16-21.49.59:236][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.16-21.49.59:236][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.16-21.49.59:303][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.16-21.49.59:355][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.16-21.49.59:467][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.16-21.49.59:500][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.16-21.49.59:566][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.16-21.49.59:632][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.16-21.49.59:700][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.16-21.49.59:770][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.16-21.49.59:770][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.16-21.50.00:496][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.16-21.50.00:566][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/gahlo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.16-21.50.00:566][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gahlo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.16-21.50.00:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.16-21.50.00:567][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.16-21.50.00:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.16-21.50.00:567][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.16-21.50.00:583][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.16-21.50.00:596][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gahlo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.16-21.50.00:607][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.16-21.50.00:607][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.16-21.50.00:608][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.16-21.50.00:608][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.16-21.50.00:997][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.16-21.50.01:428][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.16-21.50.01:489][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.16-21.50.01:489][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.16-21.50.01:489][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.16-21.50.01:489][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.16-21.50.01:489][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.16-21.50.01:523][  0]LogNetVersion: BuildingEscape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 875052629)
-[2018.02.16-21.50.01:731][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
-[2018.02.16-21.50.02:355][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.111281 seconds
-[2018.02.16-21.50.02:361][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.16-21.50.02:361][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.02.16-21.50.02:361][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.16-21.50.02:436][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.16-21.50.06:369][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.16-21.50.06:462][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.16-21.50.07:721][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.16-21.50.08:624][  0]SourceControl: Source control is disabled
-[2018.02.16-21.50.08:624][  0]SourceControl: Source control is disabled
-[2018.02.16-21.50.08:717][  0]SourceControl: Source control is disabled
-[2018.02.16-21.50.08:803][  0]SourceControl: Source control is disabled
-[2018.02.16-21.50.10:093][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.16-21.50.10:502][  0]LogOcInput: OculusInput pre-init called
-[2018.02.16-21.50.10:902][  0]LogEngine: Initializing Engine...
-[2018.02.16-21.50.10:904][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.16-21.50.11:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.16-21.50.11:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.16-21.50.11:324][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.16-21.50.11:345][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.16-21.50.11:379][  0]LogInit: FAudioDevice initialized.
-[2018.02.16-21.50.11:675][  0]LogDerivedDataCache: Saved boot cache 0.30s 78MB C:/Users/gahlo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.16-21.50.11:685][  0]LogInit: Texture streaming: Enabled
-[2018.02.16-21.50.11:842][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.16-21.50.12:065][  0]LogInit: Transaction tracking system initialized
-[2018.02.16-21.50.12:544][  0]BlueprintLog: New page: Editor Load
-[2018.02.16-21.50.14:276][  0]LocalizationService: Localization service is disabled
-[2018.02.16-21.50.15:706][  0]LogConsoleResponse: Display: 
-[2018.02.16-21.50.15:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/' took 0.01s
-[2018.02.16-21.50.15:917][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.16-21.50.15:917][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.16-21.50.15:917][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.16-21.50.17:717][  0]SourceControl: Source control is disabled
-[2018.02.16-21.50.17:758][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.18/FeaturePacks/StarterContent.upack)
-[2018.02.16-21.50.17:765][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.02.16-21.50.17:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.02.16-21.50.17:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.02.16-21.50.17:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.02.16-21.50.17:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.02.16-21.50.17:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.02.16-21.50.17:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.02.16-21.50.17:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.02.16-21.50.18:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.02.16-21.50.18:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.02.16-21.50.18:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.02.16-21.50.18:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.02.16-21.50.18:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.02.16-21.50.18:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.02.16-21.50.18:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.02.16-21.50.18:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.02.16-21.50.18:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.02.16-21.50.18:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.02.16-21.50.18:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Fire01.uasset"
-[2018.02.16-21.50.18:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.02.16-21.50.18:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.02.16-21.50.18:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.02.16-21.50.18:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Light01.uasset"
-[2018.02.16-21.50.18:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.02.16-21.50.18:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Light02.uasset"
-[2018.02.16-21.50.18:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.02.16-21.50.18:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.02.16-21.50.18:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.02.16-21.50.18:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.02.16-21.50.19:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.02.16-21.50.19:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.02.16-21.50.19:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.02.16-21.50.19:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.02.16-21.50.19:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.02.16-21.50.19:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Steam01.uasset"
-[2018.02.16-21.50.19:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.02.16-21.50.19:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.02.16-21.50.19:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.02.16-21.50.19:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.02.16-21.50.19:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.02.16-21.50.19:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.02.16-21.50.19:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.02.16-21.50.19:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.02.16-21.50.19:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.02.16-21.50.19:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.02.16-21.50.19:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.02.16-21.50.20:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.02.16-21.50.20:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.02.16-21.50.20:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.02.16-21.50.20:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.02.16-21.50.20:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.02.16-21.50.20:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.02.16-21.50.31:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.02.16-21.50.31:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.02.16-21.50.31:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.02.16-21.50.31:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.02.16-21.50.31:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.02.16-21.50.31:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Maps/StarterMap.umap"
-[2018.02.16-21.50.32:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.02.16-21.50.32:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.02.16-21.50.32:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.02.16-21.50.32:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.02.16-21.50.32:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.02.16-21.50.32:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.02.16-21.50.32:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.02.16-21.50.32:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.02.16-21.50.32:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.02.16-21.50.32:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.02.16-21.50.32:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.02.16-21.50.32:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.02.16-21.50.32:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.02.16-21.50.32:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.02.16-21.50.32:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.02.16-21.50.32:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.02.16-21.50.32:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.02.16-21.50.32:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.02.16-21.50.32:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.02.16-21.50.33:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.02.16-21.50.33:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.02.16-21.50.33:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.02.16-21.50.33:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.02.16-21.50.33:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.02.16-21.50.33:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.02.16-21.50.33:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.02.16-21.50.33:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.02.16-21.50.33:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.02.16-21.50.33:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.02.16-21.50.33:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.02.16-21.50.33:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.02.16-21.50.33:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.02.16-21.50.33:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.02.16-21.50.33:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.02.16-21.50.33:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.02.16-21.50.33:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.02.16-21.50.33:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.02.16-21.50.33:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.02.16-21.50.33:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.02.16-21.50.33:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.02.16-21.50.33:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.02.16-21.50.33:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.02.16-21.50.33:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.02.16-21.50.33:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.02.16-21.50.33:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.02.16-21.50.34:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.02.16-21.50.34:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.02.16-21.50.34:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.02.16-21.50.34:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.02.16-21.50.34:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.02.16-21.50.34:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.02.16-21.50.34:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.02.16-21.50.34:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.02.16-21.50.34:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.02.16-21.50.34:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.02.16-21.50.34:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.02.16-21.50.34:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.02.16-21.50.34:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.02.16-21.50.34:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.02.16-21.50.34:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.02.16-21.50.34:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.02.16-21.50.35:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.02.16-21.50.35:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.02.16-21.50.35:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.02.16-21.50.35:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.02.16-21.50.35:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset"
-[2018.02.16-21.50.35:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.02.16-21.50.35:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.02.16-21.50.35:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.02.16-21.50.35:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.02.16-21.50.35:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.02.16-21.50.35:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.02.16-21.50.35:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.02.16-21.50.35:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.02.16-21.50.35:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.02.16-21.50.35:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.02.16-21.50.35:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.02.16-21.50.35:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.02.16-21.50.35:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.02.16-21.50.35:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.02.16-21.50.35:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.02.16-21.50.35:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.02.16-21.50.35:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.02.16-21.50.36:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.02.16-21.50.36:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.02.16-21.50.36:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.02.16-21.50.36:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.02.16-21.50.36:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.02.16-21.50.36:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.02.16-21.50.36:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.02.16-21.50.36:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.02.16-21.50.36:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.02.16-21.50.36:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.02.16-21.50.36:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.02.16-21.50.36:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.02.16-21.50.36:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.02.16-21.50.36:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.02.16-21.50.36:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.02.16-21.50.36:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.02.16-21.50.36:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.02.16-21.50.36:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.02.16-21.50.36:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.02.16-21.50.36:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.02.16-21.50.36:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.02.16-21.50.37:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.02.16-21.50.37:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.02.16-21.50.37:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.02.16-21.50.37:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.02.16-21.50.37:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.02.16-21.50.37:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.02.16-21.50.37:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.02.16-21.50.37:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.02.16-21.50.37:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.02.16-21.50.37:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.02.16-21.50.37:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.02.16-21.50.38:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.02.16-21.50.38:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.02.16-21.50.38:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.02.16-21.50.38:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.02.16-21.50.38:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.02.16-21.50.38:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.02.16-21.50.39:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.02.16-21.50.39:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.02.16-21.50.39:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.02.16-21.50.39:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.02.16-21.50.39:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.02.16-21.50.39:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.02.16-21.50.39:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.02.16-21.50.39:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.02.16-21.50.39:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.02.16-21.50.39:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.02.16-21.50.39:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.02.16-21.50.40:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.02.16-21.50.40:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.02.16-21.50.40:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.02.16-21.50.40:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.02.16-21.50.40:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.02.16-21.50.40:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.02.16-21.50.41:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.02.16-21.50.41:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.02.16-21.50.41:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.02.16-21.50.41:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.02.16-21.50.41:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.02.16-21.50.42:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.02.16-21.50.42:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.02.16-21.50.42:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.02.16-21.50.42:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.02.16-21.50.43:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.02.16-21.50.43:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.02.16-21.50.43:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.02.16-21.50.43:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.02.16-21.50.44:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.02.16-21.50.44:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.02.16-21.50.44:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.02.16-21.50.44:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.02.16-21.50.44:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.02.16-21.50.44:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.02.16-21.50.44:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.02.16-21.50.44:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.02.16-21.50.44:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.02.16-21.50.44:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.02.16-21.50.44:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.02.16-21.50.45:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.02.16-21.50.45:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.02.16-21.50.45:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.02.16-21.50.45:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.02.16-21.50.45:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.02.16-21.50.46:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.02.16-21.50.46:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.02.16-21.50.46:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.02.16-21.50.46:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.02.16-21.50.46:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.02.16-21.50.46:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.02.16-21.50.46:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.02.16-21.50.47:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.02.16-21.50.47:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.02.16-21.50.47:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.02.16-21.50.48:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.02.16-21.50.48:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.02.16-21.50.48:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.02.16-21.50.48:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.02.16-21.50.48:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.02.16-21.50.49:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.02.16-21.50.49:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.02.16-21.50.49:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.02.16-21.50.49:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.02.16-21.50.49:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.02.16-21.50.49:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.02.16-21.50.49:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.02.16-21.50.49:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.02.16-21.50.50:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.02.16-21.50.50:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.02.16-21.50.50:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.02.16-21.50.50:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.02.16-21.50.50:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.02.16-21.50.50:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.02.16-21.50.50:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.02.16-21.50.50:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.02.16-21.50.50:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.02.16-21.50.50:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.02.16-21.50.50:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.02.16-21.50.50:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.02.16-21.50.50:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.02.16-21.50.50:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.02.16-21.50.50:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.02.16-21.50.51:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.02.16-21.50.51:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.02.16-21.50.51:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.02.16-21.50.51:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.02.16-21.50.51:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.02.16-21.50.51:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.02.16-21.50.51:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.02.16-21.50.51:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.02.16-21.50.53:375][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.02.16-21.50.54:143][  0]LogSavePackage: Save=535.66ms
-[2018.02.16-21.50.54:143][  0]LogSavePackage: Moving '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Floor_400x40066A8771B417952ED427C14A1BC0F12C4.tmp' to '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.02.16-21.50.54:154][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.02.16-21.50.54:154][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.02.16-21.50.54:160][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.16-21.50.54:161][  0]LightingResults: New page: Lighting Build
-[2018.02.16-21.50.54:229][  0]MapCheck: New page: Map Check
-[2018.02.16-21.50.54:229][  0]LightingResults: New page: Lighting Build
-[2018.02.16-21.50.58:458][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.16-21.50.58:672][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.16-21.50.58:682][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.16-21.50.58:756][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.689ms to complete.
-[2018.02.16-21.50.58:756][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.597
-[2018.02.16-21.50.59:073][  0]LogCollectionManager: Loaded 0 collections in 0.001792 seconds
-[2018.02.16-21.50.59:185][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
-[2018.02.16-21.50.59:185][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/Developers/Ghost/Collections/' took 0.01s
-[2018.02.16-21.50.59:185][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
-[2018.02.16-21.50.59:185][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.02.16-21.50.59:195][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2364 classes and 521 folders.
-[2018.02.16-21.50.59:315][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.02.16-21.51.02:420][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.02.16-21.51.02:547][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
-[2018.02.16-21.51.02:616][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.16-21.51.02:617][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.16-21.51.02:643][  0]LogSlate: Took 0.020047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.16-21.51.02:784][  0]LogRenderer: Reallocating scene render targets to support 1140x576 Format 10 NumSamples 1 (Frame:1).
-[2018.02.16-21.51.02:867][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.16-21.51.03:055][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.02.16-21.51.03:055][  0]LogLoad: (Engine Initialization) Total time: 71.32 seconds
-[2018.02.16-21.51.03:055][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.16-21.51.03:055][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.16-21.51.03:860][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.16-21.51.03:919][  1]LogAssetRegistry: Asset discovery search completed in 62.2095 seconds
-[2018.02.16-21.51.03:920][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.16-21.51.03:920][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
-[2018.02.16-21.59.50:909][670]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.16-21.59.50:915][670]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.16-21.59.50:925][670]LightingResults: New page: Lighting Build
-[2018.02.16-21.59.50:926][670]LoadErrors: New page: Loading map: Template_Default.umap
-[2018.02.16-21.59.50:964][670]MapCheck: New page: Map Check
-[2018.02.16-21.59.50:964][670]LightingResults: New page: Lighting Build
-[2018.02.16-21.59.51:065][670]LogAIModule: Creating AISystem for world Untitled_1
-[2018.02.16-21.59.51:074][670]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.16-21.59.51:088][670]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.16-21.59.51:163][670]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.352ms to complete.
-[2018.02.16-21.59.51:163][670]LogFileHelpers: Loading map 'Template_Default' took 0.255
-[2018.02.16-22.00.27:148][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.02.16-22.00.28:869][560]LogSavePackage: Save=1701.29ms
-[2018.02.16-22.00.28:870][560]LogSavePackage: Moving '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/NewMap1E1F30E74EA09F0E67D1CA8C28508747.tmp' to '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/NewMap.umap'
-[2018.02.16-22.00.28:873][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/NewMap.umap
-[2018.02.16-22.00.28:898][560]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.16-22.00.28:904][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2018.02.16-22.00.29:825][560]LogSavePackage: Save=917.54ms
-[2018.02.16-22.00.29:827][560]LogSavePackage: Moving '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltDataE549CF0549DB326C0FA338918CB1C756.tmp' to '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2018.02.16-22.00.29:830][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset
-[2018.02.16-22.00.29:837][560]LogFileHelpers: Saving map 'NewMap' took 2.788
-[2018.02.16-22.00.29:838][560]Cmd: MAP LOAD FILE="../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.16-22.00.29:848][560]LightingResults: New page: Lighting Build
-[2018.02.16-22.00.29:849][560]LoadErrors: New page: Loading map: NewMap.umap
-[2018.02.16-22.00.29:901][560]MapCheck: New page: Map Check
-[2018.02.16-22.00.29:901][560]LightingResults: New page: Lighting Build
-[2018.02.16-22.00.29:929][560]LogAIModule: Creating AISystem for world NewMap
-[2018.02.16-22.00.29:933][560]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.16-22.00.30:458][560]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.16-22.00.30:531][560]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.603ms to complete.
-[2018.02.16-22.00.30:531][560]LogFileHelpers: Loading map 'NewMap' took 0.695
-[2018.02.16-22.00.30:532][560]LoadErrors: Error: /Game/NewMap : Failed import for MapBuildDataRegistry /Game/NewMap_BuiltData.NewMap_BuiltData Referenced by export Level /Game/NewMap.NewMap:PersistentLevel
-[2018.02.16-22.01.16:926][733]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.02.16-22.01.17:340][736]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BuildingEscape
-[2018.02.16-22.01.17:340][736]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.02.16-22.01.17:340][736]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.02.16-22.01.17:340][736]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.02.16-22.01.17:340][736]LogTemp: BranchPath = LAPTOP-OFUD9S0R/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = LAPTOP-OFUD9S0R/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.02.16-22.01.17:340][736]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\gahlo\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.02.16-22.01.24:366][759]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
-[2018.02.16-22.01.25:882][936]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.16-22.06.14:196][613]MapCheck: New page: Map Check
-[2018.02.16-22.06.14:209][613]Cmd: MAP REBUILD ALLVISIBLE
-[2018.02.16-22.06.14:209][613]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.02.16-22.06.15:419][613]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.02.16-22.06.16:669][613]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2018.02.16-22.06.16:675][613]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
-[2018.02.16-22.06.23:450][613]TextureStreamingBuild: Display: Compiling optional shaders took 8.073 seconds.
-[2018.02.16-22.06.23:464][613]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
-[2018.02.16-22.06.23:706][613]TextureStreamingBuild: Display: Build Texture Streaming took 0.241 seconds.
-[2018.02.16-22.06.23:715][613]LightingResults: New page: Lighting Build - Feb 16, 2018, 2:06:23 PM
-[2018.02.16-22.06.24:941][613]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.02.16-22.06.27:205][613]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.02.16-22.06.27:238][613]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.02.16-22.06.30:487][613]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
-[2018.02.16-22.06.30:489][613]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
-
-Server stack trace: 
-   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
-   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
-   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
-   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
-
-Exception rethrown at [0]: 
-   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
-   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
-[2018.02.16-22.06.36:290][613]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.02.16-22.06.36:290][613]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10172
-[2018.02.16-22.06.37:341][613]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.02.16-22.06.37:341][613]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.02.16-22.06.37:341][613]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.02.16-22.06.37:341][613]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.02.16-22.06.37:341][613]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.02.16-22.06.37:341][613]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.02.16-22.06.37:604][613]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.02.16-22.06.37:605][613]MapCheck: New page: NewMap - Feb 16, 2018, 2:06:37 PM
-[2018.02.16-22.06.37:663][613]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
-[2018.02.16-22.06.37:731][613]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 126.309ms to complete.
-[2018.02.16-22.06.37:754][613]LogEditorBuildUtils: Build time 0:23
-[2018.02.16-22.06.37:777][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
-[2018.02.16-22.06.37:785][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
-[2018.02.16-22.06.42:279][747]Job is a success!
-[2018.02.16-22.06.42:346][748]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.031s
-[2018.02.16-22.06.42:346][748]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.02.16-22.06.42:346][748]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
-[2018.02.16-22.06.42:346][748]LogVolumetricLightmapImport:      Bricks at Level
-[2018.02.16-22.06.42:346][748]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
-[2018.02.16-22.06.42:347][748]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
-[2018.02.16-22.06.42:347][748]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
-[2018.02.16-22.06.42:553][748]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
-[2018.02.16-22.06.42:554][748]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
-[2018.02.16-22.06.42:554][748]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.02.16-22.06.42:554][748]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.02.16-22.06.42:614][748]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2018.02.16-22.06.42:614][748]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
-[2018.02.16-22.06.42:674][748]Lightmass on LAPTOP-OFUD9S0R: 1.33 sec total, 285 ms importing, 32 ms setup, 383 ms photons, 589 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 3.96 sec total, 172 ms processing.
-[2018.02.16-22.06.42:701][748]LogStaticLightingSystem: Illumination: 18.9 sec (148 ms encoding lightmaps, 100 ms encoding shadowmaps)
-[2018.02.16-22.06.42:701][748]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.02.16-22.06.42:701][748]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.02.16-22.06.43:347][748]DumpUnbuiltLightIteractions
-[2018.02.16-22.06.43:347][748]Lights with unbuilt interactions: 0
-[2018.02.16-22.06.43:347][748]
-[2018.02.16-22.06.43:347][748]Primitives with unbuilt interactions: 0
-[2018.02.16-22.06.43:393][749]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.02.16-22.06.43:393][749]MapCheck: New page: NewMap - Feb 16, 2018, 2:06:43 PM
-[2018.02.16-22.06.43:466][749]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.195ms to complete.
-[2018.02.16-22.07.09:974][239]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
-[2018.02.16-22.07.11:880][239]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
-[2018.02.16-22.07.21:536][533]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2018.02.16-22.07.26:010][ 17]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
-[2018.02.16-22.07.31:857][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.02.16-22.09.32:877][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.02.16-22.09.34:688][229]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2018.02.16-22.09.36:851][484]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.02.16-22.09.37:667][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.02.16-22.10.11:677][627]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.02.16-22.10.12:427][703]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.02.16-22.10.13:060][777]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.02.16-22.10.45:514][ 86]LogSavePackage: Save=1583.94ms
-[2018.02.16-22.10.45:515][ 86]LogSavePackage: Moving '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto1990C98A3434C0CEB30808B9BEBDBB889.tmp' to '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap'
-[2018.02.16-22.10.45:519][ 86]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap
-[2018.02.16-22.10.45:527][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 1.641
-[2018.02.16-22.10.45:527][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.641
-[2018.02.16-22.10.45:533][ 86]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewMap_BuiltData] ([1] browsable assets)...
-[2018.02.16-22.10.45:533][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewMap_BuiltData]
-[2018.02.16-22.10.45:622][ 86]LogSavePackage: Save=11.42ms
-[2018.02.16-22.10.45:622][ 86]LogSavePackage: Moving '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltData_Auto1B7ECE96B4CDA3B05E3087699F8ADF12A.tmp' to '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_BuiltData_Auto1.uasset'
-[2018.02.16-22.10.45:626][ 86]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_BuiltData_Auto1.uasset
-[2018.02.16-22.10.45:626][ 86]LogFileHelpers: Auto-saving content packages took 0.095
+[2018.02.19-00.30.36:081][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.19-00.30.36:081][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.19-00.30.36:123][  0]LogInit: Computer: LAPTOP-OFUD9S0R
+[2018.02.19-00.30.36:123][  0]LogInit: User: Ghost
+[2018.02.19-00.30.36:123][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.19-00.30.36:123][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.02.19-00.30.36:124][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.19-00.30.36:124][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.19-00.30.36:124][  0]LogMemory: Process Physical Memory: 275.66 MB used, 275.66 MB peak
+[2018.02.19-00.30.36:124][  0]LogMemory: Process Virtual Memory: 269.80 MB used, 269.80 MB peak
+[2018.02.19-00.30.36:124][  0]LogMemory: Physical Memory: 5921.70 MB used,  10337.46 MB free, 16259.16 MB total
+[2018.02.19-00.30.36:124][  0]LogMemory: Virtual Memory: 677.92 MB used,  10337.46 MB free, 134217728.00 MB total
+[2018.02.19-00.30.36:348][  0]LogInit: Using OS detected language (en-US).
+[2018.02.19-00.30.36:348][  0]LogInit: Using OS detected locale (en-CA).
+[2018.02.19-00.30.36:351][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.19-00.30.36:763][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.19-00.30.37:101][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.19-00.30.37:168][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.02.19-00.30.37:168][  0]LogD3D11RHI:       4031/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.19-00.30.37:184][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.02.19-00.30.37:185][  0]LogD3D11RHI:       128/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.19-00.30.37:188][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.19-00.30.37:189][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.19-00.30.37:189][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.19-00.30.37:196][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.19-00.30.37:196][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.02.19-00.30.37:196][  0]LogWindows: EnumDisplayDevices:
+[2018.02.19-00.30.37:196][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.19-00.30.37:196][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.02.19-00.30.37:196][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.19-00.30.37:197][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.19-00.30.37:197][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.02.19-00.30.37:197][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.19-00.30.37:197][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.19-00.30.37:197][  0]LogRHI: Texture pool is 2821 MB (70% of 4031 MB)
+[2018.02.19-00.30.37:225][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.19-00.30.37:312][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.19-00.30.37:313][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/6956/).
+[2018.02.19-00.30.37:313][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gahlo/AppData/Local/Temp/UnrealShaderWorkingDir/2925F6124AD33A0D7BE11C9DDA400007/'.
+[2018.02.19-00.30.37:313][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.19-00.30.38:507][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.19-00.30.38:582][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.19-00.30.38:663][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.19-00.30.38:738][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.19-00.30.38:813][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.19-00.30.38:891][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.19-00.30.39:004][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.19-00.30.39:102][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.19-00.30.39:178][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.19-00.30.39:265][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.19-00.30.39:334][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.19-00.30.39:402][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.19-00.30.39:472][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.19-00.30.39:549][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.19-00.30.39:692][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.19-00.30.39:692][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.19-00.30.39:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.19-00.30.39:830][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.19-00.30.39:955][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.19-00.30.39:994][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.19-00.30.40:065][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.19-00.30.40:135][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.19-00.30.40:204][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.19-00.30.40:279][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.19-00.30.40:279][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.19-00.30.40:972][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.19-00.30.41:054][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/gahlo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.19-00.30.41:054][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gahlo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.19-00.30.41:055][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.19-00.30.41:055][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.19-00.30.41:055][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.19-00.30.41:055][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.19-00.30.41:070][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.19-00.30.41:084][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gahlo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.19-00.30.41:094][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.19-00.30.41:095][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.19-00.30.41:095][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.19-00.30.41:095][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.19-00.30.41:489][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.19-00.30.41:938][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.19-00.30.42:001][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.19-00.30.42:001][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.19-00.30.42:001][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.19-00.30.42:001][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.19-00.30.42:001][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.19-00.30.42:034][  0]LogNetVersion: BuildingEscape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 875052629)
+[2018.02.19-00.30.42:246][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.02.19-00.30.42:908][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.133733 seconds
+[2018.02.19-00.30.42:914][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.19-00.30.42:914][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.19-00.30.42:914][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.19-00.30.42:991][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.19-00.30.46:555][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.19-00.30.46:608][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.19-00.30.47:625][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.19-00.30.48:209][  0]SourceControl: Source control is disabled
+[2018.02.19-00.30.48:209][  0]SourceControl: Source control is disabled
+[2018.02.19-00.30.48:285][  0]SourceControl: Source control is disabled
+[2018.02.19-00.30.48:362][  0]SourceControl: Source control is disabled
+[2018.02.19-00.30.49:503][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.19-00.30.49:881][  0]LogOcInput: OculusInput pre-init called
+[2018.02.19-00.30.50:365][  0]LogEngine: Initializing Engine...
+[2018.02.19-00.30.50:368][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.19-00.30.50:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.19-00.30.50:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.19-00.30.50:772][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.19-00.30.50:795][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.19-00.30.50:828][  0]LogInit: FAudioDevice initialized.
+[2018.02.19-00.30.50:959][  0]LogDerivedDataCache: Saved boot cache 0.13s 78MB C:/Users/gahlo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.19-00.30.50:974][  0]LogInit: Texture streaming: Enabled
+[2018.02.19-00.30.51:118][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.19-00.30.51:306][  0]LogInit: Transaction tracking system initialized
+[2018.02.19-00.30.51:759][  0]BlueprintLog: New page: Editor Load
+[2018.02.19-00.30.53:035][  0]LocalizationService: Localization service is disabled
+[2018.02.19-00.30.54:098][  0]LogConsoleResponse: Display: 
+[2018.02.19-00.30.54:316][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.19-00.30.54:316][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.19-00.30.54:317][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.19-00.30.54:783][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/' took 0.02s
+[2018.02.19-00.30.56:029][  0]SourceControl: Source control is disabled
+[2018.02.19-00.30.56:029][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.19-00.30.56:030][  0]LightingResults: New page: Lighting Build
+[2018.02.19-00.30.56:090][  0]MapCheck: New page: Map Check
+[2018.02.19-00.30.56:090][  0]LightingResults: New page: Lighting Build
+[2018.02.19-00.30.57:133][  0]LogAIModule: Creating AISystem for world NewMap
+[2018.02.19-00.30.57:140][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.19-00.30.57:153][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.19-00.30.57:220][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.249ms to complete.
+[2018.02.19-00.30.57:220][  0]LogFileHelpers: Loading map 'NewMap' took 1.191
+[2018.02.19-00.30.57:562][  0]LogCollectionManager: Loaded 0 collections in 0.001743 seconds
+[2018.02.19-00.30.57:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
+[2018.02.19-00.30.57:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/Developers/Ghost/Collections/' took 0.01s
+[2018.02.19-00.30.57:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
+[2018.02.19-00.30.57:666][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.19-00.30.57:674][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2364 classes and 521 folders.
+[2018.02.19-00.30.57:771][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.19-00.30.59:432][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.19-00.30.59:576][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.19-00.30.59:653][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.19-00.30.59:655][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.19-00.30.59:681][  0]LogSlate: Took 0.019881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.19-00.30.59:970][  0]LogRenderer: Reallocating scene render targets to support 1140x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.19-00.31.00:042][  0]LogSlate: Took 0.011936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.19-00.31.00:219][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.02.19-00.31.00:219][  0]LogLoad: (Engine Initialization) Total time: 28.55 seconds
+[2018.02.19-00.31.00:219][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.19-00.31.00:220][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.19-00.31.00:583][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.19-00.31.00:946][  1]LogAssetRegistry: Asset discovery search completed in 18.7224 seconds
+[2018.02.19-00.31.00:949][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.19-00.31.00:949][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2018.02.19-01.40.35:477][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.02.19-01.40.42:375][447]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.19-01.40.42:533][447]LogSlate: Took 0.105722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.19-01.41.52:777][447]Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -game -rocket -progress
+[2018.02.19-01.41.53:188][447]Discovering modules, targets and source code for project...
+[2018.02.19-01.42.00:317][447]LogSlate: Took 0.000532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.19-01.42.03:742][447]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.19-01.42.03:775][447]Candidate modules for hot reload:
+[2018.02.19-01.42.03:775][447]  BuildingEscape
+[2018.02.19-01.42.03:775][447]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 4823 Win64 Development -editorrecompile -canskiplink "C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: New page: Compilation - Feb 18, 2018, 5:44:41 PM
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: Creating makefile for hot reloading BuildingEscape (no existing makefile)
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2018.02.19-01.44.41:045][447]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\gahlo\Documents\Unreal Projects\03_BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\gahlo\Documents\Unreal Projects\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 9.5478298 seconds
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: PositionReporter.gen.cpp
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: BuildingEscape.init.gen.cpp
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: PositionReporter.cpp
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: [4/5] Link UE4Editor-BuildingEscape-4823.dll
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: [5/5] Link UE4Editor-BuildingEscape-4823.lib
+[2018.02.19-01.44.41:045][447]CompilerResultsLog:    Creating library C:\Users\gahlo\Documents\Unreal Projects\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-4823.lib and object C:\Users\gahlo\Documents\Unreal Projects\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-4823.exp
+[2018.02.19-01.44.41:045][447]CompilerResultsLog:    Creating library C:\Users\gahlo\Documents\Unreal Projects\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-4823.suppressed.lib and object C:\Users\gahlo\Documents\Unreal Projects\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-4823.suppressed.exp
+[2018.02.19-01.44.41:045][447]CompilerResultsLog: Total build time: 156.94 seconds (Local executor: 63.06 seconds)
+[2018.02.19-01.44.41:045][447]LogMainFrame: MainFrame: Module compiling took 157.304 seconds
+[2018.02.19-01.44.41:220][447]LogClass: Could not find existing class PositionReporter in package /Script/BuildingEscape for HotReload, assuming new class
+[2018.02.19-01.44.41:222][447]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2018.02.19-01.44.41:223][447]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.19-01.44.41:388][447]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2367 classes and 525 folders.
+[2018.02.19-01.44.41:392][447]Display: HotReload took 157.7s.
+[2018.02.19-01.44.41:395][447]Warning: HotReload operation took 157.7s.
+[2018.02.19-01.44.42:449][447]LogHotReload: New module detected: UE4Editor-BuildingEscape-4823.dll
+[2018.02.19-01.44.42:566][448]LogHotReload: Starting Hot-Reload from IDE
+[2018.02.19-01.44.42:674][448]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2018.02.19-01.44.42:675][448]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.19-01.44.42:694][448]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2367 classes and 525 folders.
+[2018.02.19-01.44.42:701][448]Display: HotReload took  0.1s.
+[2018.02.19-01.44.43:091][456]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.19-01.44.52:207][506]LogSavePackage: Save=76.03ms
+[2018.02.19-01.44.52:208][506]LogSavePackage: Moving '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto1143F8D0D46629AAC4FBD90AC92152562.tmp' to '../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2018.02.19-01.44.52:210][506]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2018.02.19-01.44.52:216][506]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.118
+[2018.02.19-01.44.52:216][506]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.118
+[2018.02.19-01.45.11:719][872]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.07:136][ 37]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.07:457][ 38]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.07:790][ 39]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.08:124][ 40]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.08:458][ 41]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.08:790][ 42]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.09:124][ 43]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.09:457][ 44]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.09:790][ 45]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.10:124][ 46]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.10:458][ 47]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.10:791][ 48]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.11:123][ 49]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.11:457][ 50]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.11:790][ 51]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.12:123][ 52]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.12:457][ 53]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.12:791][ 54]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.13:123][ 55]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.13:457][ 56]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.14:113][ 57]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.46.14:127][ 58]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.49.42:421][ 50]LogWindows: LaunchFileInExternalEditor C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReporter.h 
+[2018.02.19-01.49.43:226][ 50]LogWindows: Launch application code for C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReporter.h : 42
+[2018.02.19-01.49.43:226][ 50]LogWindows: LaunchFileInExternalEditor C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReporter.cpp 
+[2018.02.19-01.49.43:595][ 50]LogWindows: Launch application code for C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReporter.cpp : 42
+[2018.02.19-01.49.43:595][ 50]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.19-01.49.43:601][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:601][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:602][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:603][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:604][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:605][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:605][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:605][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:605][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:605][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:605][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:605][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:605][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:606][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:607][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:607][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:607][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:607][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:607][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:607][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:607][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:607][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:608][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:609][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:610][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:611][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:611][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:611][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:611][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:611][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:611][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:611][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:611][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:612][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:612][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:612][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:612][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:612][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:613][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:613][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:613][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:613][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:613][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:613][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:613][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:614][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:614][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:614][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:614][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:614][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:614][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:616][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:619][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:622][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:658][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:660][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:679][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:681][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:714][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:715][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.49.43:715][ 50]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.50.22:423][603]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.50.53:379][692]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.50.53:401][693]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.23:657][200]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.23:954][201]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.24:289][202]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.24:621][203]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.24:954][204]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.25:288][205]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.25:621][206]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.25:954][207]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.26:287][208]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.26:621][209]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.26:955][210]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.27:288][211]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.27:621][212]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.27:955][213]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.28:288][214]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.28:622][215]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.29:067][216]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.29:288][217]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.29:621][218]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.29:954][219]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.30:287][220]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.30:621][221]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.30:954][222]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.31:288][223]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.31:622][224]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.31:954][225]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.32:288][226]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.32:621][227]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.32:955][228]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.33:288][229]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.33:621][230]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.33:954][231]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.34:288][232]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.34:621][233]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.34:954][234]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.35:288][235]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.35:621][236]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.35:954][237]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.36:289][238]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.36:621][239]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.36:955][240]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.37:288][241]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.37:621][242]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.37:954][243]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.38:287][244]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.38:622][245]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.38:955][246]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.39:288][247]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.39:622][248]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.39:954][249]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.40:287][250]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.40:621][251]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.40:954][252]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.41:288][253]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.41:621][254]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.41:954][255]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.42:288][256]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.42:621][257]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.42:954][258]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.43:288][259]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.43:622][260]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.43:954][261]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.44:289][262]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.44:621][263]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.44:955][264]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.45:288][265]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.45:621][266]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.45:954][267]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.46:288][268]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.46:621][269]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.46:955][270]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.51.47:381][271]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.53.21:764][812]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.19-01.55.17:754][160]LogWindows: LaunchFileInExternalEditor C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReporter.h 
+[2018.02.19-01.55.18:094][160]LogWindows: Launch application code for C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReporter.h : 42
+[2018.02.19-01.55.18:094][160]LogWindows: LaunchFileInExternalEditor C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReporter.cpp 
+[2018.02.19-01.55.18:339][160]LogWindows: Launch application code for C:/Users/gahlo/Documents/Unreal Projects/03_BuildingEscape/BuildingEscape/Source/BuildingEscape/PositionReporter.cpp : 42
+[2018.02.19-01.55.18:339][160]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.19-01.55.18:344][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:344][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:344][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:344][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:344][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:344][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:345][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:346][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:347][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:348][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:349][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:350][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:351][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:351][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:351][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:351][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:351][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:351][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:351][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:351][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:352][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:352][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:352][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:352][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:352][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:352][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:352][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:353][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:353][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:353][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:353][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:353][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:353][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:353][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:353][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:354][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:355][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:356][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:356][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:356][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:356][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:357][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:361][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:364][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:395][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:398][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:420][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:422][160]LogVSAccessor: Warning: Couldn't access module table
+[2018.02.19-01.55.18:446][160]LogVSAccessor: Warning: Couldn't access module table
